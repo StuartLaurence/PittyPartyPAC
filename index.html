@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Pitty Party</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fdf6ec;
+      color: #111;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #d42f2f;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+    h2 {
+      color: #1e3a5f;
+    }
+    nav {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 0.5rem;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 2rem auto;
+    }
+    .quote {
+      font-style: italic;
+      text-align: center;
+      margin: 2rem 0;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    .endorsement {
+      background-color: #f0e7dd;
+      border-left: 4px solid #1e3a5f;
+      margin: 1rem 0;
+      padding: 1rem;
+      font-style: italic;
+    }
+    .bio {
+      margin-top: 2rem;
+    }
+    .giveaway {
+      margin-top: 2rem;
+      text-align: center;
+    }
+    .giveaway button {
+      background-color: #1e3a5f;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      cursor: pointer;
+      margin: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>The Pitty Party</h1>
+    <p>We are miserable because we care.</p>
+  </header>
+  <nav>
+    <a href="#mission">Mission</a>
+    <a href="#origin">Founding Story</a>
+    <a href="#posters">Posters</a>
+    <a href="#join">Join</a>
+  </nav>
+  <section id="mission">
+    <h2>Our Mission</h2>
+    <p>The Pitty Party is a progressive political action committee for the emotionally exhausted. A place where broken-hearted idealists gather not to give up—but to regroup, rearm (with memes and policy), and go back out swinging.</p>
+    <p><strong>Apathy is easy. We choose pain—on purpose. Because someone has to.</strong></p>
+    <p>We are the spiritual opposite of "Hope and Change." We are <strong>Despair and Action</strong>.</p>
+    <p>We’re not a think tank. We’re a <strong>feel tank</strong>.</p>
+    <p><em>Misery loves company. Join the Pitty Party today.</em></p>
+  </section>
+  <section id="origin">
+    <h2>Founding Story</h2>
+    <p>It didn’t start with Trump. Or Biden. Or Gaza. Or Greenland.</p>
+    <p>It started with a Supreme Court ruling so catastrophically stupid that even C-SPAN viewers blinked in disbelief.</p>
+    <p><strong>Citizens United v. FEC, 2010.</strong><br />That was the moment the veil dropped. When the powers-that-be declared, with a straight face, that money is speech and corporations are people. And just like that, the American people became background noise in their own democracy.</p>
+    <p>For years, we waited for someone—anyone—to fix it. But no one came.<br />And the problems multiplied.</p>
+    <ul>
+      <li>Healthcare? Privatized.</li>
+      <li>Education? Dismantled.</li>
+      <li>Wages? Stagnant.</li>
+      <li>Climate? On fire.</li>
+      <li>Billionaires? Flying to space.</li>
+      <li>Us? Crying into a microwaved burrito during a 15-minute lunch break.</li>
+    </ul>
+    <p>That’s when it happened.</p>
+    <p>Somewhere in Texas, a mild-mannered musician sat doomscrolling with his dog Sugar farting in his lap, nose burning from the gaseous emissions. A bad omen it was. The news was bleak. Again. Supreme Court immunity. Gaza in ruins. Greenland next on the real estate wishlist.</p>
+    <p>And he thought:<br /><strong>“This country doesn’t deserve another party... at least not the kind with balloons and cake. It needs a Pitty Party.”</strong></p>
+  </section>
+  <section class="bio">
+    <h2>Meet William Pitty</h2>
+    <p>William Pitty is the face of the disillusioned masses. Born in a strip mall and raised on expired coupons, he’s just a guy who’s had enough. He carries a dry erase protest sign and drinks gas station coffee like it’s a sacred ritual. He is not a politician. He’s you. He’s me. He’s the reason we cry at city council meetings.</p>
+  </section>
+  <section id="posters">
+    <h2>Posters & Messaging</h2>
+    <img src="A_graphic_design_image_features_a_bold_political_m.png" alt="Dollar in Ballot Box Poster" />
+    <img src="A_graphic_design_image_features_a_rectangular_alar.png" alt="Alarm Clock Poster" />
+    <img src="A_flat,_graphic_design_digital_illustration_featur.png" alt="Awake and Hating It Poster" />
+    <img src="A_typographic_poster_in_black_and_beige_features_a.png" alt="Not Democracy Poster" />
+    <img src="A_typographic_poster_features_an_anti-gerrymanderi.png" alt="Scared to Play Fair Poster" />
+  </section>
+  <section id="join">
+    <h2>Join Us</h2>
+    <p>You're already mad. Now get organized. Sign up for updates, sarcasm, and sad victory dances.</p>
+    <form name="signup" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks.html">
+      <input type="hidden" name="form-name" value="signup" />
+      <p style="display:none">
+        <label>Don’t fill this out: <input name="bot-field" /></label>
+      </p>
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required />
+      <button type="submit">Join the Party</button>
+    </form>
+    <div class="giveaway">
+      <p>Every new member gets entered to win a free dry erase protest sign (coming soon!).</p>
+      <button>I'm with Willy, I guess?</button>
+      <button>It’s my party, I’ll cry if I want to :(</button>
+    </div>
+  </section>
+  <section>
+    <h2>What People Are Saying</h2>
+    <div class="endorsement">“At least they’re trying.” — Someone’s Disillusioned Aunt</div>
+    <div class="endorsement">“They made me feel worse... but in a good way.” — Emotionally Aware Millennial</div>
+    <div class="endorsement">“I thought this was a joke. Then I cried. Then I joined.” — Sad Clown #417</div>
+  </section>
+  <footer>
+    <p>&copy; 2025 The Pitty Party. Built on rage and recycled protest signs.</p>
+  </footer>
+</body>
+</html>
